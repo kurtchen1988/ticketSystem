@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合同信息改变小工具</title>
+    <script type="text/javascript" ></script>
+</head>
+<body>
+    <form method="post" action="{% url 'subChan' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1>合同信息改变小工具</h1>
+        <p>请上传文件：<input type="file" name="file"></p>
+        <p>随意输入名字，请不要与之前输入的名字重复(任意输入值即可)：<input type="text" name="name"></p>
+        <p>随意输入路径值，请不要与之前输入的路径重复(任意输入值即可)：<input type="text" name="path"></p>
+        <p>请输入update_id(结算单上的备案号)：<input type="text" name="updateid"></p>
+        <p>请输入record_id(同步号)：<input type="text" name="recordid"></p>
+        <p>请输入合同号(订单号前加C字符)：<input type="text" name="contractno"></p>
+        <p>请输入供应商名称：<input type="text" name="supname"></p>
+        <p>请输入供应商开户行：<input type="text" name="bank"></p>
+        <p>请输入供应商银行账户：<input type="text" name="account"></p>
+
+        <p><button type="submit">提交</button> <button type="reset">清空</button> </p>
+        <p><a href="/">返回首页</a> </p>
+
+        <p><textarea cols="80" rows="20">{{ finaldata }}</textarea></p>
+
+    </form>
+
+    <script type="text/javascript">
+
+    </script>
+
+</body>
+</html>

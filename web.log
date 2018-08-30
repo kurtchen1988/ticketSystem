@@ -1,0 +1,141 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Aug 22 16:52:09 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 18 August 2018 22:16:19
+os: Linux-3.10.0-327.el7.x86_64 #1 SMP Thu Nov 19 22:10:57 UTC 2015
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /var/pyweb
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 31212
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :83 fd 4
+spawned uWSGI http 1 (pid: 22457)
+uwsgi socket 0 bound to TCP address 127.0.0.1:37784 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Aug 17 2018, 11:46:52)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eb0210
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1eb0210 pid: 22456 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 22456, cores: 1)
+[pid: 22456|app: 0|req: 1/1] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:13 2018] GET / => generated 261 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 2/2] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:14 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 3/3] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:14 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 4/4] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:14 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 5/5] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:14 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 6/6] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 20:52:15 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 7/7] 10.201.121.178 () {40 vars in 826 bytes} [Wed Aug 22 20:52:16 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 22456|app: 0|req: 8/8] 10.201.121.178 () {40 vars in 826 bytes} [Wed Aug 22 20:54:50 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+退货1.png
+.png
+[pid: 22456|app: 0|req: 9/9] 10.201.121.178 () {48 vars in 1004 bytes} [Wed Aug 22 20:55:07 2018] POST /subChan => generated 747787 bytes in 460 msecs (HTTP/1.1 200) 5 headers in 294 bytes (26 switches on core 0)
+退货1.png
+.png
+[pid: 22456|app: 0|req: 10/10] 10.201.121.178 () {48 vars in 1004 bytes} [Wed Aug 22 21:04:44 2018] POST /subChan => generated 747787 bytes in 515 msecs (HTTP/1.1 200) 5 headers in 294 bytes (38 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Aug 22 17:05:27 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 18 August 2018 22:16:19
+os: Linux-3.10.0-327.el7.x86_64 #1 SMP Thu Nov 19 22:10:57 UTC 2015
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /var/pyweb
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 31212
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :83 fd 4
+spawned uWSGI http 1 (pid: 23825)
+uwsgi socket 0 bound to TCP address 127.0.0.1:59618 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Aug 17 2018, 11:46:52)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x261d210
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x261d210 pid: 23824 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 23824, cores: 1)
+[pid: 23824|app: 0|req: 1/1] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 21:05:30 2018] GET / => generated 261 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 2/2] 10.201.121.178 () {40 vars in 795 bytes} [Wed Aug 22 21:05:31 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 3/3] 10.201.121.178 () {40 vars in 826 bytes} [Wed Aug 22 21:05:32 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+text1.png
+.png
+[pid: 23824|app: 0|req: 4/4] 10.201.121.178 () {48 vars in 1002 bytes} [Wed Aug 22 21:05:52 2018] POST /subChan => generated 11359 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 5/5] 10.200.100.60 () {38 vars in 762 bytes} [Wed Aug 22 23:11:12 2018] GET / => generated 261 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 6/6] 10.200.100.60 () {40 vars in 793 bytes} [Wed Aug 22 23:11:14 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 7/7] 10.200.100.60 () {40 vars in 794 bytes} [Wed Aug 22 23:11:36 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 8/8] 10.200.100.60 () {40 vars in 825 bytes} [Wed Aug 22 23:11:39 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+text1.png
+.png
+[pid: 23824|app: 0|req: 9/9] 10.200.100.60 () {48 vars in 1001 bytes} [Wed Aug 22 23:12:08 2018] POST /subChan => generated 11358 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (6 switches on core 0)
+[pid: 23824|app: 0|req: 10/10] 10.200.100.60 () {38 vars in 763 bytes} [Wed Aug 22 23:13:08 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 11/11] 10.200.100.60 () {40 vars in 825 bytes} [Wed Aug 22 23:13:10 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+text1.png
+.png
+[pid: 23824|app: 0|req: 12/12] 10.200.100.60 () {48 vars in 1000 bytes} [Wed Aug 22 23:13:36 2018] POST /subChan => generated 11341 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 293 bytes (5 switches on core 0)
+[pid: 23824|app: 0|req: 13/13] 10.200.100.60 () {38 vars in 762 bytes} [Wed Aug 22 23:19:43 2018] GET / => generated 261 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 14/14] 10.200.100.60 () {40 vars in 824 bytes} [Wed Aug 22 23:19:46 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 15/15] 10.200.100.60 () {42 vars in 856 bytes} [Wed Aug 22 23:20:33 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 16/16] 10.200.100.60 () {40 vars in 825 bytes} [Wed Aug 22 23:20:36 2018] GET /contraChange => generated 1513 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+text1.png
+.png
+[pid: 23824|app: 0|req: 17/17] 10.200.100.60 () {48 vars in 1001 bytes} [Wed Aug 22 23:21:04 2018] POST /subChan => generated 11360 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+text1.png
+.png
+[pid: 23824|app: 0|req: 18/18] 10.200.100.60 () {48 vars in 1001 bytes} [Wed Aug 22 23:35:38 2018] POST /subChan => generated 11360 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 293 bytes (2 switches on core 0)
+[pid: 23824|app: 0|req: 19/19] 10.200.100.60 () {40 vars in 794 bytes} [Wed Aug 22 23:35:52 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 20/20] 10.200.100.60 () {40 vars in 794 bytes} [Wed Aug 22 23:35:53 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 21/21] 10.200.100.60 () {40 vars in 825 bytes} [Wed Aug 22 23:35:55 2018] GET /contraChange => generated 1513 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 22/22] 10.200.100.60 () {42 vars in 856 bytes} [Wed Aug 22 23:38:46 2018] GET /contraChange => generated 1504 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 23/23] 10.200.100.60 () {42 vars in 856 bytes} [Wed Aug 22 23:38:47 2018] GET /contraChange => generated 1504 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 24/24] 10.200.100.60 () {42 vars in 856 bytes} [Wed Aug 22 23:38:47 2018] GET /contraChange => generated 1504 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 25/25] 10.200.100.60 () {42 vars in 856 bytes} [Wed Aug 22 23:38:47 2018] GET /contraChange => generated 1504 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 26/26] 10.200.3.63 () {38 vars in 781 bytes} [Thu Aug 23 09:11:23 2018] GET / => generated 261 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23824|app: 0|req: 27/27] 10.200.3.63 () {38 vars in 760 bytes} [Thu Aug 23 09:11:23 2018] GET /favicon.ico => generated 2440 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 28/28] 10.200.3.63 () {40 vars in 843 bytes} [Thu Aug 23 09:11:27 2018] GET /contraChange => generated 1504 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 29/29] 10.201.121.178 () {38 vars in 764 bytes} [Thu Aug 23 09:33:52 2018] GET / => generated 261 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 30/30] 10.201.121.178 () {40 vars in 826 bytes} [Thu Aug 23 09:33:56 2018] GET /contraChange => generated 1504 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+okok.png
+.png
+[pid: 23824|app: 0|req: 31/31] 10.201.121.178 () {48 vars in 1004 bytes} [Thu Aug 23 09:39:31 2018] POST /subChan => generated 170061 bytes in 83 msecs (HTTP/1.1 200) 5 headers in 294 bytes (9 switches on core 0)
+[pid: 23824|app: 0|req: 32/32] 10.200.3.29 () {38 vars in 773 bytes} [Thu Aug 23 09:42:19 2018] GET / => generated 261 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23824|app: 0|req: 33/33] 10.200.3.29 () {38 vars in 752 bytes} [Thu Aug 23 09:42:20 2018] GET /favicon.ico => generated 2440 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 23824|app: 0|req: 34/34] 10.200.3.29 () {40 vars in 835 bytes} [Thu Aug 23 09:42:22 2018] GET /contraChange => generated 1504 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+改名附件.png
+.png
+[pid: 23824|app: 0|req: 35/35] 10.200.3.29 () {48 vars in 1089 bytes} [Thu Aug 23 09:42:55 2018] POST /subChan => generated 912458 bytes in 237 msecs (HTTP/1.1 200) 5 headers in 294 bytes (51 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23824|app: 0|req: 36/36] 10.200.3.29 () {34 vars in 736 bytes} [Thu Aug 23 09:43:26 2018] GET /favicon.ico => generated 2440 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
